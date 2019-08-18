@@ -1,0 +1,54 @@
+body{
+    background-color: #eeeeee;
+}
+
+#page{
+    background-color: #ffffff;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: yellow;
+}
+#content{
+    padding: 10px;
+}
+
+#nav{
+    background-color: yellow;
+    width: 160px;
+    float: left;
+}
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    background-color: #eeeeee;
+    color: #383535;
+    text-align: center;
+}
+
+ul {
+    list-style: circle;
+  }
+  
+h3 > h5{
+    background-color: gold;
+}
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(lp3i-cirebon.png) 30 round;
+  }
+
+p {
+    font-style: italic;
+    font-size: 10px;
+    font-weight: bold;
+}
